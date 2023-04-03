@@ -1,0 +1,939 @@
+fileFormatVersion: 2
+guid: 8ea4bcff735e5423782b2d96c5b15e80
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 343
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b14d595b489a498380176fbf4622dca
+      internalID: 1896087986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 339
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0546abf6906d24a7caafaf0772cd1afb
+      internalID: 246105330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 338
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ee7937a27447878948d97e3e7e2d9
+      internalID: 1140826720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 330
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b07398fa644ad8a20b1ea3879566a
+      internalID: 1381040946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 329
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a55c10267c1240498f615c327c40734
+      internalID: -1724982200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 329
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacf7f3691b9e45b4bebc0f6f9c5224b
+      internalID: -1011464675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 330
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e91d019e76f41bfa5511387c273d15
+      internalID: 534972341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 327
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e023ef5c1a9244246be6c68bf2d2c39a
+      internalID: 1022378710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 248
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812fd8603390f443bb6ae583d0d45137
+      internalID: 177475881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 246
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8308637e40e8a49c0b62bc2fe1512871
+      internalID: 311653874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 248
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5e28e80988e4afb8bcbc83cc3ba397
+      internalID: 1401869892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 249
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261ac4d0344df4ae184cdbe82b947cef
+      internalID: -150506330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 248
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fec47f90e6bb4a71935006945d51e59
+      internalID: -1801636088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 246
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7bcb2b0f0664d408f936fb5cadd38a
+      internalID: -1344011522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 244
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d86db87c0147a8a46265b443edb78
+      internalID: -964938298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 246
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0debd2a93f687436b88e2e4c93ddc50f
+      internalID: 165965989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 172
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b17c6a7c672444eaef9adc821c53e2
+      internalID: 1159856572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 177
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff303935df94606a50e57afc502fd5
+      internalID: 1132042029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39733a20b34b34cc1a73024c3e842b69
+      internalID: 1329964474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 175
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c717d448a344c12a5a503181ade1d6
+      internalID: 183243315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 175
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c3dd7d619524f6893837445ec53a81
+      internalID: 882259016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca6dfcb130c54c85abc1ff4db25d7f5
+      internalID: -1702055322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 178
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b8d136547d408a8fdef80f6a4b385
+      internalID: -1051348948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 175
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c28cbdeb0390433eb3e75c0a5c2246d
+      internalID: -806730625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 96
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e20ebb796a5406ba61093de021587e
+      internalID: 1355746817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 95
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556dc0ffdbe2e4712a2c1b1925608690
+      internalID: 92874260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 93
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfaad1e28cd348e189a26d5701d5533
+      internalID: -99177353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 103
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb7a32a91e304e699491374b730e32b
+      internalID: -1442221036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 103
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad3a7679b33c452cbce62ccc436e945
+      internalID: 1864712524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 103
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfe4ad6f1bd84a4c8b824adac87afa7
+      internalID: -240838492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 103
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77abfe574ead4bc5b20a7a27f2c0541
+      internalID: -1529144278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 104
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1e20cc308594c5dac5c2381e2b8da1
+      internalID: -1301230439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 28
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437df188c85c441b3bbb689bfcfa962b
+      internalID: 233282352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 37
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee71283ed7e24421b0aafd1e73927fd
+      internalID: -1119272432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa630959baaa04397ac6ac6f2c089b2b
+      internalID: 1529392104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 44
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e13f5e7e1034119bbebf7f2538eb84
+      internalID: -400991814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_12: -1801636088
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_23: -806730625
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_30: -1529144278
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_11: -150506330
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_28: 1864712524
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_5: -1011464675
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_27: -1442221036
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_32: 233282352
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_6: 534972341
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_20: 882259016
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_33: -1119272432
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_14: -964938298
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_22: -1051348948
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_1: 246105330
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_7: 1022378710
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_16: 1159856572
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_24: 1355746817
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_19: 183243315
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_31: -1301230439
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_25: 92874260
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_21: -1702055322
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_35: -400991814
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_9: 311653874
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_17: 1132042029
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_0: 1896087986
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_26: -99177353
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_29: -240838492
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_3: 1381040946
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_34: 1529392104
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_4: -1724982200
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_15: 165965989
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_8: 177475881
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_13: -1344011522
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_10: 1401869892
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_2: 1140826720
+      523-5230327_smoke-sprite-sheet-free-hd-png-download-removebg-preview_18: 1329964474
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
