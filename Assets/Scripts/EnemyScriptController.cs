@@ -8,6 +8,7 @@ public class EnemyScriptController : MonoBehaviour
     public GameObject bulletPrefap;
     public GameObject bulletSpawnerPoint;
 
+    public GameObject explosionEffectPrefap;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,5 +29,19 @@ public class EnemyScriptController : MonoBehaviour
         //3
         bullet.transform.SetParent(container.transform);
 
+    }
+
+    GameObject exp;
+    public void CreateExplosionEffect()
+    {
+         exp = Instantiate(explosionEffectPrefap, transform.position, Quaternion.identity);
+
+        DestroyEnemyAndEffect();
+    }
+
+    private void DestroyEnemyAndEffect()
+    {
+        Destroy(exp, 0.6f);
+        Destroy(gameObject, 0.6f);
     }
 }

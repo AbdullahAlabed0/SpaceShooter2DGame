@@ -21,8 +21,11 @@ public class BulletMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+
+            UI_Manager.instance.ChechWinState();
+            collision.transform.GetComponent<EnemyScriptController>().CreateExplosionEffect();
+           // Destroy(collision.gameObject);//enemy
+            Destroy(gameObject);//bullet
         }
     }
 }

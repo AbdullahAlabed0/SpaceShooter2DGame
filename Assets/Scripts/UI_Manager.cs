@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,13 @@ using UnityEngine.UI;
 public class UI_Manager : MonoBehaviour
 {
 
-    public GameObject GameOverUI;
+    public GameObject GameOverUI, GameWinUI;
     public Text playerLivesText;
     public int playerLivesCounter = 3;
 
+
+    public int max_enimes;
+    public int destroied_enimes;
 
     public static UI_Manager instance;
 
@@ -25,6 +29,9 @@ public class UI_Manager : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1;
+
+        EnemyScriptController[] enemies = GameObject.FindObjectsOfType<EnemyScriptController>();
+        max_enimes = enemies.Length;
     }
 
     public void DecreasePlayerLives()
@@ -46,5 +53,17 @@ public class UI_Manager : MonoBehaviour
     public void ReplayTheGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    internal void ChechWinState()
+    {
+
+        if (destroied_enimes > max_enimes)
+        {
+            Debug.Log("******************* WIN STATE ******************** ");
+            GameWinUI.SetActive(true);
+        }
+        destroied_enimes++;
+
     }
 }
