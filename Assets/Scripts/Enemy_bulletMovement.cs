@@ -23,8 +23,6 @@ public class Enemy_bulletMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //Destroy(collision.gameObject);
-
             Destroy(gameObject);//bullet
             UI_Manager.instance.DecreasePlayerLives();
         }

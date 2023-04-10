@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class UI_Manager : MonoBehaviour
 {
@@ -44,8 +45,11 @@ public class UI_Manager : MonoBehaviour
             GameObject player = GameObject.FindWithTag("Player");
             Destroy(player);
 
-            GameOverUI.SetActive(true);// make gameover ui active (visiable) on the screen
-            Time.timeScale = 0;
+            //GameOverUI.SetActive(true);// make gameover ui active (visiable) on the screen
+            GameOverUI.transform.DOLocalMove(Vector3.zero, 1).SetEase(Ease.OutBack).OnComplete(() => {
+                Time.timeScale = 0;
+            });
+            
         }
     }
 
@@ -58,10 +62,13 @@ public class UI_Manager : MonoBehaviour
     internal void ChechWinState()
     {
 
-        if (destroied_enimes > max_enimes)
+        if (destroied_enimes >= max_enimes-1)
         {
             Debug.Log("******************* WIN STATE ******************** ");
-            GameWinUI.SetActive(true);
+
+            GameWinUI.transform.DOLocalMove(Vector3.zero, 1).SetEase(Ease.OutBack).OnComplete(() => {
+                Time.timeScale = 0;
+            });
         }
         destroied_enimes++;
 
