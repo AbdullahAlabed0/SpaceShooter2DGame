@@ -19,12 +19,5 @@ public class Enemy_bulletMovement : MonoBehaviour
         transform.Translate(0, -1 * speed * Time.deltaTime, 0);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            Destroy(gameObject);//bullet
-            UI_Manager.instance.DecreasePlayerLives();
-        }
-    }
+    
 }

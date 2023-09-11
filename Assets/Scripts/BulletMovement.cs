@@ -22,11 +22,24 @@ public class BulletMovement : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
 
-            GameManager.instance.CreateExplosionEffect();
+            CreateExplosionEffect();
             UI_Manager.instance.ChechWinState();
 
             Destroy(collision.gameObject);//enemy
             Destroy(gameObject);//bullet
         }
+    }
+
+    GameObject exp;
+    public void CreateExplosionEffect()
+    {
+        exp = Instantiate(GameManager.instance.explosionEffectPrefap, transform.position, Quaternion.identity);
+
+        DestroyEnemyAndEffect();
+    }
+
+    private void DestroyEnemyAndEffect()
+    {
+        Destroy(exp, 0.6f);
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject explosionEffectPrefap;
-
+    public Transform BulletsContainer;
     public static GameManager instance;
     private void Awake()
     {
@@ -14,16 +14,5 @@ public class GameManager : MonoBehaviour
 
 
 
-    GameObject exp;
-    public void CreateExplosionEffect()
-    {
-        exp = Instantiate(explosionEffectPrefap, transform.position, Quaternion.identity);
-
-        DestroyEnemyAndEffect();
-    }
-
-    private void DestroyEnemyAndEffect()
-    {
-        Destroy(exp, 0.6f);
-    }
+    
 }

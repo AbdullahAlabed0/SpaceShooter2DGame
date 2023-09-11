@@ -1,0 +1,310 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694424856955774, "dur":5899, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424856961682, "dur":104, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424856961813, "dur":277, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424856962106, "dur":2252, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424856964359, "dur":145812, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424857110172, "dur":295, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424857110572, "dur":3204, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694424856962383, "dur":2041, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856964426, "dur":445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856964871, "dur":3475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856968395, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856971976, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1694424856976568, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1694424856982224, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856986314, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856988865, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856989996, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856991896, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856994076, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856995757, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856997159, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856997260, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424856998814, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424856998932, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424857000733, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424857000811, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424857002445, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694424857002595, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424857004702, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694424857006817, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1694424857010236, "dur":6825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1694424857017114, "dur":93052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856962357, "dur":2045, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856964403, "dur":821, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856965224, "dur":3124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856968351, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1694424856968465, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856976984, "dur":19560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1694424856996609, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856996786, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694424856998268, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424856998459, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694424857000761, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424857000942, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694424857002772, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424857002846, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694424857004994, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694424857005134, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694424857006843, "dur":4976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1694424857011857, "dur":98239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856962284, "dur":2089, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856964375, "dur":877, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856965252, "dur":3115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856968381, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1694424856968368, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1694424856968471, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856978136, "dur":11603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1694424856989881, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856991356, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856992709, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856994171, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856995784, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856997283, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424856997454, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424856999264, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424857000853, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424857000943, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424857002841, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424857002992, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424857004960, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694424857005037, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694424857006769, "dur":7143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694424857013945, "dur":96152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694424856962230, "dur":2133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694424856964365, "dur":3976, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694424856968403, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694424856968575, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1694424856968824, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969077, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969193, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969299, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969434, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969646, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856969920, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856970261, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856970416, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\aalabed\\SpaceShooter\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694424856968402, "dur":2314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694424856971291, "dur":133659, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694424857107724, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694424857107723, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694424857107955, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1694424856962273, "dur":2094, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424856964371, "dur":886, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424856965257, "dur":3104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424856968363, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694424856968515, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424856980757, "dur":21111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694424857001921, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424857002048, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694424857004311, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424857004413, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694424857005842, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694424857005960, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694424857007701, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1694424857011327, "dur":4964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1694424857016325, "dur":93766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856962303, "dur":2074, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856964379, "dur":851, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856965230, "dur":3126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856968359, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694424856968451, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856973826, "dur":4774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694424856978751, "dur":11002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1694424856989889, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856991460, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856992631, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856993982, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856995202, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856996270, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424856996420, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856998131, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424856999805, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424857000066, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424857002191, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424857004638, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424857006326, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694424857006562, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694424857008160, "dur":8738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1694424857016931, "dur":93230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424856962328, "dur":2062, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424856964396, "dur":796, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424856965192, "dur":3183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424856968377, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694424856968520, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424856987165, "dur":23874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694424857011412, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694424857011471, "dur":8831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1694424857020331, "dur":89839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424856962350, "dur":2048, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424856964399, "dur":803, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424856965203, "dur":3175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424856968379, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1694424856968525, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424856986277, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1694424856992858, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424856994191, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424856995782, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424856997527, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424856999269, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424857000982, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424857001115, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424857002775, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424857002854, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424857004780, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694424857004900, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424857006559, "dur":12034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694424857018619, "dur":91510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424856962376, "dur":2039, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424856964422, "dur":839, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424856965261, "dur":3098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424856968368, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1694424856968360, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1694424856968450, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424856971597, "dur":8163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1694424856979884, "dur":21001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1694424857000982, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424857001118, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694424857003293, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424857003517, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694424857005398, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694424857005465, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694424857007235, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694424857012292, "dur":97800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856962420, "dur":2009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856964430, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856968387, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1694424856968375, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1694424856968518, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856979374, "dur":11225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1694424856990644, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856990733, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856991981, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856993455, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856994699, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856994763, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856995839, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856997672, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424856997842, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424856999405, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424857001315, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424857003696, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424857003825, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424857005287, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424857005365, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694424857007342, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694424857007468, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1694424857013210, "dur":96894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856962454, "dur":1979, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856964433, "dur":3931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856968366, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1694424856968516, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856983887, "dur":6002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1694424856989985, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856991689, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856991771, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856993458, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856994660, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856996197, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856996324, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856997681, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424856997860, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424856999571, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424857001291, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424857001396, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424857003381, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424857003494, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424857005196, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424857005258, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694424857006749, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1694424857010818, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694424857010908, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1694424857016770, "dur":93328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694424856962465, "dur":1973, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694424856964438, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694424856968367, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1694424856968349, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1694424856968449, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694424856972981, "dur":9227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1694424856982252, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694424856982252, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694424856982367, "dur":34018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter.exe" }}
+,{ "pid":12345, "tid":12, "ts":1694424857016429, "dur":93670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856962488, "dur":1955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856964443, "dur":3927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856968371, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1694424856968459, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856976051, "dur":5111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1694424856982105, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856983385, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856984152, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1694424856990935, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856992444, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856992538, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856994009, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856994172, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856995556, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856995632, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856996995, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856998320, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424856998461, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424856999950, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424857000102, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424857001846, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424857001921, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424857004411, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424857006013, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694424857006086, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694424857008035, "dur":8795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1694424857016865, "dur":93237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856962505, "dur":1942, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856964447, "dur":3895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856968407, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856969990, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1694424856972588, "dur":7987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1694424856981051, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1694424856986458, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856988368, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856990626, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856990729, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856992203, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694424856992400, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856994168, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856995739, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856997145, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424856998704, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424857000323, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424857002140, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424857004539, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424857006191, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694424857007781, "dur":5165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1694424857013004, "dur":97090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694424856962538, "dur":1912, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694424856964450, "dur":3893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694424856968363, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1694424856968349, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1694424856968433, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694424856974792, "dur":51350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1694424857026169, "dur":83930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424856962575, "dur":1878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424856964454, "dur":3898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424856968382, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1694424856968355, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1694424856968520, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424856982111, "dur":14139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1694424856996298, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424856996422, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424856998060, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424856999802, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424857000068, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424857001669, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424857001796, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424857004138, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424857004297, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424857005850, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694424857005964, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1694424857008010, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aalabed/Desktop/SpaceShooterGame/SpaceShooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1694424857012329, "dur":97766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694424857117277, "dur":766, "ph":"X", "name": "ProfilerWriteOutput" }
+,
